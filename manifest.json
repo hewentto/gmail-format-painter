@@ -20,6 +20,7 @@
     "default_title": "Gmail Format Painter"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "type": "module"
   }
 }
