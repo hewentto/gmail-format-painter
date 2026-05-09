@@ -3,7 +3,7 @@
   "name": "Gmail Format Painter",
   "version": "1.0",
   "description": "Copy and apply text formatting in Gmail.",
-  "permissions": ["scripting", "activeTab", "contextMenus"],
+  "permissions": ["scripting", "activeTab", "contextMenus", "storage"],
   "host_permissions": ["https://mail.google.com/*"],
   "icons": {
     "16": "icons/icon16.png",
