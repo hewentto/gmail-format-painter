@@ -45,6 +45,24 @@ button:hover {
   background-color: #b2926e;
 }
 
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.status {
+  min-height: 36px;
+  margin: 12px 10px 0;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+  color: #ffffff;
+}
+
+.status.error {
+  color: #ffb4ab;
+}
+
 footer {
   margin-top: 10px;
   text-align: center;
